@@ -125,14 +125,14 @@
 .icons .alinhado {
 	margin-right: 20px;
 	float: left;
-  font-size: 20px;
+  font-size: 25px;
    width: 40px;
    height: 40px;
 }
 
 .icons .nalinhado {
    float: left;
-  font-size: 20px;
+  font-size: 25px;
    width: 40px;
    height: 40px;
 
@@ -145,7 +145,6 @@
    height: 45px;
    text-align: center;
   line-height: 40px;
-
    
 }
 
@@ -153,9 +152,8 @@
    margin: 0 auto;
    position: relative;
 
-
-
 }
+
 .fundo {
    border-radius: 100%;
    width: 45px;
@@ -165,5 +163,34 @@
    border: solid 1px rgba(255, 255, 255, 0.25);
    background-color: rgba(255, 255, 255, 0.075);
    }
+
+   .thumbnails {
+
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      position: relative;
+      width: 1300px;
+      height: 2000px;
+   }
+   .thumbnails div {
+      
+         width: calc(100% / 3);
+         padding-left: 2em;
+         margin-top: 30px;
+
+
+      }
+
+      .thumbnails a {
+      width: 100%;
+       border-radius: 4%;
+      border-bottom: none;
+      background-color: rgba(255, 255, 255, 0.075);
+    
+      }
+ 
+
+
 
 
