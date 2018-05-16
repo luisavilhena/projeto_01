@@ -255,7 +255,7 @@
    color: rgba(255, 255, 255, 0.65);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
          .thumbnails {
             display: block;
@@ -295,6 +295,8 @@
                font-size: 15px;
             }
          }
+
+        
 
 
 
